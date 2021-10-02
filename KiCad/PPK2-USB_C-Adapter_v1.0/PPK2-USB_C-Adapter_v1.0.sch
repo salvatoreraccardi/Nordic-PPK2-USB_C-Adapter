@@ -1,0 +1,381 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Nordic-PPK2-USB_C-Adapter"
+Date "2021-10-02"
+Rev "1.0"
+Comp "Designed by Salvatore Raccardi"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J1
+U 1 1 615821D4
+P 2860 3420
+F 0 "J1" H 2967 4287 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 2967 4196 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 3010 3420 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 3010 3420 50  0001 C CNN
+	1    2860 3420
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3460 3920
+NoConn ~ 3460 4020
+$Comp
+L Device:R R1
+U 1 1 61583C2E
+P 2560 4610
+F 0 "R1" H 2630 4656 50  0000 L CNN
+F 1 "1M" H 2630 4565 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 2490 4610 50  0001 C CNN
+F 3 "~" H 2560 4610 50  0001 C CNN
+	1    2560 4610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2560 4320 2560 4460
+Wire Wire Line
+	2560 4760 2560 5015
+Wire Wire Line
+	2860 5015 2860 4320
+$Comp
+L Device:R R2
+U 1 1 61585922
+P 4020 4225
+F 0 "R2" H 4090 4271 50  0000 L CNN
+F 1 "5.11K" H 4090 4180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 3950 4225 50  0001 C CNN
+F 3 "~" H 4020 4225 50  0001 C CNN
+	1    4020 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3460 3120 4020 3120
+Wire Wire Line
+	4020 3120 4020 4075
+Wire Wire Line
+	4020 4375 4020 4600
+$Comp
+L Device:R R3
+U 1 1 61588621
+P 4480 4225
+F 0 "R3" H 4550 4271 50  0000 L CNN
+F 1 "5.11K" H 4550 4180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 4410 4225 50  0001 C CNN
+F 3 "~" H 4480 4225 50  0001 C CNN
+	1    4480 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4480 4375 4480 4600
+Wire Wire Line
+	3460 3020 4480 3020
+Wire Wire Line
+	4480 3020 4480 4075
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 J3
+U 1 1 6158B166
+P 8585 3420
+F 0 "J3" H 8692 4287 50  0000 C CNN
+F 1 "USB_C_Receptacle_USB2.0" H 8692 4196 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G" H 8735 3420 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 8735 3420 50  0001 C CNN
+	1    8585 3420
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 7985 3920
+NoConn ~ 7985 4020
+$Comp
+L Device:R R6
+U 1 1 6158B175
+P 8885 4610
+F 0 "R6" H 8955 4656 50  0000 L CNN
+F 1 "1M" H 8955 4565 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 8815 4610 50  0001 C CNN
+F 3 "~" H 8885 4610 50  0001 C CNN
+	1    8885 4610
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8885 4320 8885 4460
+Wire Wire Line
+	8885 4760 8885 5015
+Wire Wire Line
+	8585 5015 8585 4320
+$Comp
+L Device:R R5
+U 1 1 6158B18A
+P 7425 4225
+F 0 "R5" H 7495 4271 50  0000 L CNN
+F 1 "5.11K" H 7495 4180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 7355 4225 50  0001 C CNN
+F 3 "~" H 7425 4225 50  0001 C CNN
+	1    7425 4225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7985 3120 7425 3120
+Wire Wire Line
+	7425 3120 7425 4075
+Wire Wire Line
+	7425 4375 7425 4600
+$Comp
+L Device:R R4
+U 1 1 6158B199
+P 6965 4225
+F 0 "R4" H 7035 4271 50  0000 L CNN
+F 1 "5.11K" H 7035 4180 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6895 4225 50  0001 C CNN
+F 3 "~" H 6965 4225 50  0001 C CNN
+	1    6965 4225
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6965 4375 6965 4600
+Wire Wire Line
+	7985 3020 6965 3020
+Wire Wire Line
+	6965 3020 6965 4075
+Wire Wire Line
+	7985 3320 7870 3320
+Wire Wire Line
+	3460 3420 3555 3420
+Wire Wire Line
+	3555 3420 3555 3320
+Connection ~ 3555 3320
+Wire Wire Line
+	3555 3320 3460 3320
+Wire Wire Line
+	7985 3420 7870 3420
+Wire Wire Line
+	7870 3420 7870 3320
+Connection ~ 7870 3320
+Wire Wire Line
+	3460 3520 3555 3520
+Wire Wire Line
+	7985 3620 7870 3620
+Wire Wire Line
+	7870 3620 7870 3520
+Connection ~ 7870 3520
+Wire Wire Line
+	7870 3520 7985 3520
+Wire Wire Line
+	3460 3620 3555 3620
+Wire Wire Line
+	3555 3620 3555 3520
+Connection ~ 3555 3520
+$Comp
+L Connector_Generic:Conn_01x04 J2
+U 1 1 615B54AF
+P 5680 1750
+F 0 "J2" V 5644 1462 50  0000 R CNN
+F 1 "Conn_01x04" V 5553 1462 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 5680 1750 50  0001 C CNN
+F 3 "~" H 5680 1750 50  0001 C CNN
+	1    5680 1750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Power_Protection:SP0503BAHT D1
+U 1 1 615B6208
+P 5045 4220
+F 0 "D1" H 5250 4266 50  0000 L CNN
+F 1 "SP0503BAHT" H 5250 4175 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 5270 4170 50  0001 L CNN
+F 3 "http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf" H 5170 4345 50  0001 C CNN
+	1    5045 4220
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 2805 0    79   Italic 16
+USB-IN
+Text Notes 7345 2795 0    79   Italic 16
+USB-OUT
+Wire Wire Line
+	5680 2820 5680 1950
+Wire Wire Line
+	5780 1950 5780 2820
+Wire Wire Line
+	5780 2820 7985 2820
+Wire Wire Line
+	5580 1950 5580 2080
+Wire Wire Line
+	5580 2080 5315 2080
+Wire Wire Line
+	5315 2080 5315 2230
+Wire Wire Line
+	5880 1950 5880 2080
+Wire Wire Line
+	6145 2080 5880 2080
+Wire Wire Line
+	6145 2080 6145 2230
+$Comp
+L power:GND #PWR0101
+U 1 1 615C1183
+P 5315 2230
+F 0 "#PWR0101" H 5315 1980 50  0001 C CNN
+F 1 "GND" H 5320 2057 50  0000 C CNN
+F 2 "" H 5315 2230 50  0001 C CNN
+F 3 "" H 5315 2230 50  0001 C CNN
+	1    5315 2230
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 615C1C87
+P 6145 2230
+F 0 "#PWR0102" H 6145 1980 50  0001 C CNN
+F 1 "GND" H 6150 2057 50  0000 C CNN
+F 2 "" H 6145 2230 50  0001 C CNN
+F 3 "" H 6145 2230 50  0001 C CNN
+	1    6145 2230
+	1    0    0    -1  
+$EndComp
+Text Label 5680 2120 1    50   Italic 0
+VIN
+Text Label 5780 2135 1    50   Italic 0
+VOUT
+$Comp
+L power:GND #PWR0103
+U 1 1 615C9C2D
+P 2560 5015
+F 0 "#PWR0103" H 2560 4765 50  0001 C CNN
+F 1 "GND" H 2565 4842 50  0000 C CNN
+F 2 "" H 2560 5015 50  0001 C CNN
+F 3 "" H 2560 5015 50  0001 C CNN
+	1    2560 5015
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 615CA5E1
+P 2860 5015
+F 0 "#PWR0104" H 2860 4765 50  0001 C CNN
+F 1 "GND" H 2865 4842 50  0000 C CNN
+F 2 "" H 2860 5015 50  0001 C CNN
+F 3 "" H 2860 5015 50  0001 C CNN
+	1    2860 5015
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 615CBBE1
+P 8585 5015
+F 0 "#PWR0105" H 8585 4765 50  0001 C CNN
+F 1 "GND" H 8590 4842 50  0000 C CNN
+F 2 "" H 8585 5015 50  0001 C CNN
+F 3 "" H 8585 5015 50  0001 C CNN
+	1    8585 5015
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 615CBBE7
+P 8885 5015
+F 0 "#PWR0106" H 8885 4765 50  0001 C CNN
+F 1 "GND" H 8890 4842 50  0000 C CNN
+F 2 "" H 8885 5015 50  0001 C CNN
+F 3 "" H 8885 5015 50  0001 C CNN
+	1    8885 5015
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 615CC8BD
+P 4020 4600
+F 0 "#PWR0107" H 4020 4350 50  0001 C CNN
+F 1 "GND" H 4025 4427 50  0000 C CNN
+F 2 "" H 4020 4600 50  0001 C CNN
+F 3 "" H 4020 4600 50  0001 C CNN
+	1    4020 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 615CC8C3
+P 4480 4600
+F 0 "#PWR0108" H 4480 4350 50  0001 C CNN
+F 1 "GND" H 4485 4427 50  0000 C CNN
+F 2 "" H 4480 4600 50  0001 C CNN
+F 3 "" H 4480 4600 50  0001 C CNN
+	1    4480 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0109
+U 1 1 615CFC1E
+P 6965 4600
+F 0 "#PWR0109" H 6965 4350 50  0001 C CNN
+F 1 "GND" H 6970 4427 50  0000 C CNN
+F 2 "" H 6965 4600 50  0001 C CNN
+F 3 "" H 6965 4600 50  0001 C CNN
+	1    6965 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0110
+U 1 1 615CFC24
+P 7425 4600
+F 0 "#PWR0110" H 7425 4350 50  0001 C CNN
+F 1 "GND" H 7430 4427 50  0000 C CNN
+F 2 "" H 7425 4600 50  0001 C CNN
+F 3 "" H 7425 4600 50  0001 C CNN
+	1    7425 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_ALT D2
+U 1 1 615D0FB8
+P 5205 2820
+F 0 "D2" H 5205 2603 50  0000 C CNN
+F 1 "MBR120" H 5205 2694 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 5205 2820 50  0001 C CNN
+F 3 "~" H 5205 2820 50  0001 C CNN
+	1    5205 2820
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3460 2820 4945 2820
+Wire Wire Line
+	5355 2820 5680 2820
+Text Notes 5365 2815 0    50   ~ 0
+MAX 1A
+$Comp
+L power:GND #PWR0111
+U 1 1 615DE553
+P 5045 4610
+F 0 "#PWR0111" H 5045 4360 50  0001 C CNN
+F 1 "GND" H 5050 4437 50  0000 C CNN
+F 2 "" H 5045 4610 50  0001 C CNN
+F 3 "" H 5045 4610 50  0001 C CNN
+	1    5045 4610
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5045 4610 5045 4420
+Wire Wire Line
+	4945 4020 4945 2820
+Connection ~ 4945 2820
+Wire Wire Line
+	4945 2820 5055 2820
+Text Notes 785  1010 0    118  Italic 0
+Nordic-PPK2-USB_C-Adapter
+Wire Wire Line
+	3555 3520 5145 3520
+Wire Wire Line
+	3555 3320 5045 3320
+Wire Wire Line
+	5045 4020 5045 3320
+Connection ~ 5045 3320
+Wire Wire Line
+	5045 3320 7870 3320
+Wire Wire Line
+	5145 4020 5145 3520
+Connection ~ 5145 3520
+Wire Wire Line
+	5145 3520 7870 3520
+$EndSCHEMATC
